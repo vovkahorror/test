@@ -475,6 +475,10 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    border-radius: 30px;
+  }
+
   .header {
     display: none;
   }
@@ -538,7 +542,6 @@ body {
     background: linear-gradient(180deg, #0d606f 0%, rgba(13, 96, 111, 0) 25.1%),
       url("../img/preview-background-mobile.jpg") center top no-repeat;
     background-size: cover;
-    border-radius: 30px 30px 0 0;
   }
 
   .preview__heading,
@@ -765,7 +768,6 @@ body {
     background: url("../img/stories-background-mobile.jpg") center bottom
       no-repeat;
     background-size: cover;
-    border-radius: 0 0 30px 30px;
   }
 
   .footer__student {
